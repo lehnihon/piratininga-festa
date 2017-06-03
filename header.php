@@ -15,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="shortcut icon" type="image/jpeg" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Seimi Digital FlavIcon.jpg"; ?>" />
+
 <?php wp_head(); ?>
 <script>
 new WOW().init();
@@ -55,8 +55,8 @@ new WOW().init();
 					<div class="menu-header clearfix">
 						<div id="redes">
 						<ul class="redes_sociais_header">
-			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCCwVJIRNKQgutNjvb-BT-tw"></a></li>
-			              <li class="instagram"><a target="_blank" href="https://twitter.com/SeimiDigital"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.instagram.com/piratiningakyokai/"></a></li>
+			              <li class="instagram"><a target="_blank" href="https://www.facebook.com/igrejatenrikyopiratininga/"></a></li>
 						</ul>
 						</div>
 						<div class="menu-op"><a class="hvr-underline-from-left" href="#contato">fale conosco</a></div>				

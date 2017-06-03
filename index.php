@@ -7,7 +7,9 @@ get_header(); ?>
 
 <div id="topo" class="container-fluid">
 	<div class="row">		
-		<?php putRevSlider( "banner-index" ) ?>		
+		<?php 
+    	echo do_shortcode("[metaslider id=4]"); 
+		?>
 	</div>
 </div>
 
@@ -21,12 +23,12 @@ get_header(); ?>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4  fadeInUp wow">
-				<img alt="img-responsive" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeirinhas.jpg"; ?>" />
+				<img alt="bandeirinhas" class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeirinhas.jpg"; ?>" />
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 fadeIn wow">
-
+				<?php echo photo_gallery(3); ?>
 			</div>
 		</div>
 	</div>
@@ -42,21 +44,21 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 fadeInUp wow text-center">
-				<img alt="img-responsive" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeirinhas2.png"; ?>" />
+			<div class="col-md-6 col-md-offset-3 fadeInUp wow text-center">
+				<img alt="bandeirinhas" class="img-responsive e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeirinhas2.png"; ?>" />
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 fadeInLeft wow">
-				<img alt="img-responsive" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio1.png"; ?>" /><br><br>
+				<img alt="premio1" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio1.png"; ?>" /><br><br>
 				<p>Terceiro Prêmio <br><strong>Panela Elétrica</strong></p>
 			</div>
 			<div class="col-md-4 fadeInUp wow">
-				<img alt="img-responsive" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio2.png"; ?>" /><br><br>
+				<img alt="premio2" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio2.png"; ?>" /><br><br>
 				<p>Segundo Prêmio <br><strong>iPad Mini</strong></p>
 			</div>
 			<div class="col-md-4 fadeInRight wow">
-				<img alt="img-responsive" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio3.png"; ?>" /><br><br>
+				<img alt="premio3" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/premio3.png"; ?>" /><br><br>
 				<p>Primeiro Prêmio <br><strong>Smart TV 32 polegadas</strong></p>
 			</div>
 		</div>
@@ -67,7 +69,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 painel text-center  fadeInUp wow" data-wow-delay="0.3s">
-				<img alt="bandeira" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeira.jpg"; ?>" /><br><br>
+				<img alt="pin" class="e-claro bandeira" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeira.jpg"; ?>" /><br><br>
 				<p>Festa Junina <br> Igreja Tenrikyo Piratininga</p><br>
 				<p class="destaque">
 					<strong>Rua Angical, 265 - Vila Nova Manchester <br> São Paulo - SP</strong>
@@ -83,7 +85,7 @@ get_header(); ?>
 <div id="contato">
 	<div class="container">
 		<div class="col-md-12 animated fadeInUp wow">
-			<?php echo do_shortcode('[contact-form-7 id="5" title="Contato"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="8" title="Formulário de contato 1"]'); ?>
 		</div>
 	</div>
 </div>

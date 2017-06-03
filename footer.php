@@ -25,16 +25,21 @@
 				<div class="col-md-12 text-center animated fadeInUp wow">
 					<div id="redes_footer">
 						<ul class="redes_sociais_footer">
-			              <li class="youtube"><a target="_blank" href="https://www.facebook.com/seimidigital/"></a></li>
-			              <li class="instagram"><a target="_blank" href="https://twitter.com/SeimiDigital"></a></li>
-			              <li class="twitter"><a target="_blank" href="https://www.instagram.com/seimidigital/"https://www.instagram.com/seimidigital/></a></li>
+			              <li class="youtube"><a href="#"></a></li>
+			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/piratiningakyokai/"></a></li>
+			              <li class="twitter"><a target="_blank" href="https://www.facebook.com/igrejatenrikyopiratininga/"></a></li>
 						</ul>
 					</div>
 				</div>
 			</div><br><br>
 			<div class="row">
-				<div class="col-md-12 text-center text-footer fadeInUp wow">
+				<div class="col-md-6 col-md-offset-3 text-center text-footer fadeInUp wow">
 					&copy; Copyright <?php echo date('Y') ?> - Festa Junina da Igreja Tenrikyo Piratininga
+				</div>
+				<div class="col-md-1 col-md-offset-2 text-right">
+					<a target="_blank" href="http://seimidigital.com.br">
+					<img alt="seimi" class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
+					</a>
 				</div>
 			</div>
 		</div>
