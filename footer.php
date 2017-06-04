@@ -25,7 +25,7 @@
 				<div class="col-md-12 text-center animated fadeInUp wow">
 					<div id="redes_footer">
 						<ul class="redes_sociais_footer">
-			              <li class="youtube"><a href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.google.com.br/maps/dir/''/igreja+tenrikyo+piratininga/@-23.5502433,-46.5963664,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94ce5de2cbfc67ef:0xc956d29a09afe06c!2m2!1d-46.526326!2d-23.550259"></a></li>
 			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/piratiningakyokai/"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://www.facebook.com/igrejatenrikyopiratininga/"></a></li>
 						</ul>

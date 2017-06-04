@@ -68,16 +68,19 @@ get_header(); ?>
 <div id="localizacao" class=" fadeIn wow" data-wow-delay="0.3s">
 	<div class="container">
 		<div class="row">
+			<a target="_blank" href="https://www.google.com.br/maps/dir/''/igreja+tenrikyo+piratininga/@-23.5502433,-46.5963664,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x94ce5de2cbfc67ef:0xc956d29a09afe06c!2m2!1d-46.526326!2d-23.550259">
 			<div class="col-md-6 col-md-offset-3 painel text-center  fadeInUp wow" data-wow-delay="0.3s">
-				<img alt="pin" class="e-claro bandeira" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeira.jpg"; ?>" /><br><br>
-				<p>Festa Junina <br> Igreja Tenrikyo Piratininga</p><br>
-				<p class="destaque">
-					<strong>Rua Angical, 265 - Vila Nova Manchester <br> São Paulo - SP</strong>
-				</p><br>
-				<p class="destaque">
-					11 2097-3537
-				</p>
+					<img alt="pin" class="e-claro bandeira" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/bandeira.jpg"; ?>" /><br><br>
+					<p>Festa Junina <br> Igreja Tenrikyo Piratininga</p><br>
+					<p class="destaque">
+						<strong>Rua Angical, 265 - Vila Nova Manchester <br> São Paulo - SP</strong>
+					</p><br>
+					<p class="destaque">
+						11 2097-3537
+					</p>
+				
 			</div>
+			</a>
 		</div>
 	</div>
 </div>
